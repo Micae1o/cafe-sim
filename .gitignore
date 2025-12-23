@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual envs
+.venv/
+venv/
+.env/
+.env.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing/coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Type checking
+.mypy_cache/
+.pyre/
+.pytype/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit cache/logs
+.streamlit/
+
+# Local configs
+*.local
+*.log
+
+# Project outputs
+out/
+
+# Pyenv
+.python-version
+
+docs
